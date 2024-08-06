@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Card = ({item }) => {
-    console.log(item.name);
+    //console.log(item.name);
   return (
     <div className='flex flex-wrap gap-4'>
      <div key={item.id} className="max-w-sm rounded overflow-hidden shadow-lg bg-white">

@@ -4,13 +4,13 @@ import Card from "./Cards";
 
 const Demobook = () => {
   const filterdata = list.filter((data) => data.category === "free");
-  console.log(filterdata);
+  //console.log(filterdata);
 
   return (
-    <div >
+    <div  className="bg-white">
     <div className="pl-12">
-    <h1 className="text-3xl font-bold">Free Wallah</h1>
-      <p>
+    <h1 className=" text-black text-3xl font-bold">Free Wallah</h1>
+      <p className="text-black">
         React has been designed from the start for gradual adoption, and you can
         use as little or as much React as you need.
       </p>

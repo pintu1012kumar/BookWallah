@@ -6,3 +6,7 @@
 3. daisy ui --> It is component library for tailwind css , it is used to create navbar , header , footer etc.  
 
 4. add navbar then header.js
+5. add footer , list.json , DemoBook,cards .
+6. add home.js and modified it.
+7. create route.
+8. add course.js

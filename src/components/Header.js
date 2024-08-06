@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between p-6">
+    <div className=" bg-white flex items-center justify-between p-6">
       {/* Left Div */}
       <div>
         <div className="flex flex-col space-y-4">
