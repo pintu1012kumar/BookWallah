@@ -1,5 +1,7 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
+
+import AboutSection from "./components/About/AboutSection";
+import ContactSection from "./components/Contact/ContactSection";
+
 import CourseSectionArea from "./components/Courses/CourseSectionArea";
 import Signup from "./components/Signup";
 import Home from "./Home/Home";
@@ -15,8 +17,8 @@ function App() {
 
      <Route path="/" element={<Home/>}/>
      <Route path="/course" element={<CourseSectionArea/>}/>
-     <Route path="/About" element={<About/>}/>
-     <Route path="/Contact" element={<Contact/>}/>
+     <Route path="/About" element={<AboutSection/>}/>
+     <Route path="/Contact" element={<ContactSection/>}/>
      <Route path="/Signup" element={<Signup/>}/>
 
     </Routes>

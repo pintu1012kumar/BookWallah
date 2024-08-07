@@ -7,9 +7,13 @@ const Header = () => {
       <div>
         <div className="flex flex-col space-y-4">
           <h1 className="text-6xl font-bold text-gray-800">
-            your most welcome ...
+            Welcome to the <span className="text-red-600">BookWallah..</span>
           </h1>
-          <p className="text-lg text-gray-600">Bhaiya ke savagat ba .......</p>
+          <p className="text-lg text-gray-600">
+            Explore our extensive collection of more than <span className="text-red-700 font-bold"> 20k+ Books,</span>offering
+            comprehensive and reliable resources to enhance your learning
+            journey across all subjects and grades.
+          </p>
         </div>
         {/* search-bar */}
         <div className=" items-center space-x-2 p-10 pr-0">
@@ -18,15 +22,15 @@ const Header = () => {
             placeholder="Enter your email to login.."
             className="bg-gray-200 text-gray-800 px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 w-3/4"
           />
-          
-         <div className="pt-3">
-         <button
-            type="button"
-            className="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            Explore
-          </button>
-         </div>
+
+          <div className="pt-3">
+            <button
+              type="button"
+              className="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              Explore
+            </button>
+          </div>
         </div>
       </div>
       {/* Right Div */}

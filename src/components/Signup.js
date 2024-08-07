@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Login from "./Login";
 
 const Signup = () => {
   return (
@@ -20,7 +19,7 @@ const Signup = () => {
         <div className="relative p-7">
           <Link
             to="/"
-            className="absolute top-3 right-0 bg-red-600 text-white p-1  "
+            className="absolute top-3 right-0  text-white p-1  "
           >
             ✕
           </Link>
